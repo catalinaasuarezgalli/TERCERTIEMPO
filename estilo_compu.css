@@ -1,0 +1,273 @@
+@media screen and (min-width:1024px) and (max-width:1200px) {
+    
+    body {
+        width: 90%;
+    }
+
+    header {
+        height: auto;
+        width: 90%;
+        background-color: blue;
+    }
+    
+    .logo {
+        text-align: center;
+    }
+    
+    /*botonera*/
+    nav {
+        display: inline-block;
+        font-family: 'Staatliches', cursive;
+    }
+    
+    nav ul li {
+        list-style-type: none;
+        margin-bottom: 1rem;
+        font-family: 'Staatliches', cursive;
+        font-size: 40px;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-family: 'Staatliches', cursive;
+        font-size: 40px;
+    }
+    
+    nav ul li a:hover {
+        color: black;
+        transition: .5s;
+        font-family: 'Staatliches', cursive;
+        font-size: 40px;
+    }
+    /*cerrar botonera*/
+    /*formulario*/
+    main {
+        max-width: 90%;
+        text-align: center;
+    }
+    
+    main h1 {
+        color: white;
+        font-size: 150px;
+        font-family: 'Staatliches', cursive;
+    }
+    .nombre {
+        text-align: center;
+        
+    }
+    .nombre label {
+        color: blue;
+        font-size: 30px;
+        font-family: 'Staatliches', cursive;
+       
+    }
+    .edad {
+        text-align: center;
+    }
+    .edad label {
+        color: blue;
+        font-size: 40px;
+        font-family: 'Staatliches', cursive;
+    
+    }
+
+    .cumple {
+        text-align: center;
+    }
+    
+    .cumple label {
+        color: blue;
+        font-size: 40px;
+        font-family: 'Staatliches', cursive;
+    }
+
+    .particular {
+        text-align: center;
+    }
+    
+    .particular label {
+        color: blue;
+        font-size: 40px;
+        font-family: 'Staatliches', cursive;
+    }
+    
+    .madre h2 {
+        color: white;
+        text-align: center;
+        font-size: 50px;
+        font-family: 'Staatliches', cursive;
+    }
+    .nombremadre {
+        text-align: center;
+    }
+
+    .nombremadre label {
+        color: blue;
+        font-size: 50px;
+        font-family: 'Staatliches', cursive;
+    }
+
+    .telmadre {
+        text-align: center;
+    }
+    
+    .telmadre label {
+        color: blue;
+        font-size: 50px;
+        font-family: 'Staatliches', cursive;
+    }
+
+    .mailmadre {
+        text-align: center;
+    }
+
+    .mailmadre label {
+        color: blue;
+        font-size: 50px;
+        font-family: 'Staatliches', cursive;
+    }
+    
+    .padre h3 {
+        color: white;
+        text-align: center;
+        font-size: 50px;
+        font-family: 'Staatliches', cursive;
+    }
+
+    .nombrepadre {
+        text-align: center;
+    }
+
+    .nombrepadre label {
+        font-size: 40px;
+        font-family: 'Staatliches', cursive;
+        color: blue;
+    }
+    
+    .telpadre {
+        text-align: center;
+    }
+
+    .telpadre label {
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Staatliches', cursive;
+        color: blue;
+    }
+
+    .emailpadre {
+        text-align: center;
+    }
+
+    .emailpadre label {
+        font-size: 40px;
+        font-family: 'Staatliches', cursive;
+        color: blue;
+    }
+
+    .retirada {
+        text-align: center;
+    }
+
+    .retirada h4 {
+        text-align: center;
+        padding-top: 5px;
+        font-size: 50px;
+        color: white;
+        font-family: 'Staatliches', cursive;
+    }
+    
+    .retirada label {
+        color: blue;
+        font-size: 30px;
+        font-family: 'Staatliches', cursive;
+        padding-bottom: 80px;
+    }
+    
+    .emergencia {
+        text-align: center;
+    }
+    
+    .emergencia h4 {
+        font-size: 100px;
+        color: white;
+        font-family: 'Staatliches', cursive;
+    }
+    
+    .cobertura label {
+        color: blue;
+        font-size: 40px;
+        font-family: 'Staatliches', cursive;
+    }
+    
+    .afiliado label {
+        color: blue;
+        font-size: 40px;
+        font-family: 'Staatliches', cursive;
+    }
+    
+    .medico label {
+        color: blue;
+        font-size: 40px;
+        font-family: 'Staatliches', cursive;
+    }
+    
+    .observaciones label {
+        color:white;
+        font-size: 70px;
+        font-family: 'Staatliches', cursive;
+    }
+
+    .boton {
+        text-align: center;
+        padding-right: 2rem;
+        font-family: 'Staatliches', cursive;
+    }
+    
+    .boton input {
+        font-size: 30px;
+        background-color: blue;
+        color: white;
+        text-align: center;
+       
+    
+    }
+    
+    .autorizacion p {
+        font-size: 40px;
+        color: white;
+        font-family: 'Staatliches', cursive;
+    }
+    
+    .alumno label {
+        color: white;
+        font-size: 20px;
+        font-family: 'Staatliches', cursive;
+        padding-left: 500px;
+    }
+    
+    section {
+        max-width: 90%;
+    }
+    
+    section p {
+        font-size: 40px;
+        text-align: center;
+        color: white;
+        font-family: 'Staatliches', cursive;
+    }
+    
+    footer {
+        background-color: blue;
+    }
+    
+    footer p {
+        color: white;
+        text-align: center;
+        font-family: 'Staatliches', cursive;
+        font-size: 40px;
+    }
+    /*fin formulario*/
+   
+}

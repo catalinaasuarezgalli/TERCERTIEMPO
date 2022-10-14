@@ -1,0 +1,92 @@
+/*TITULO H1*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  background-color: rgb(10, 50, 100);
+  width: 80%;
+}
+
+header {
+  height: auto;
+  width: 100%;
+  background-color: blue;
+}
+
+.logo {
+  text-align: center;
+}
+
+/*botonera*/
+nav {
+  display: inline-block;
+ 
+}
+
+nav ul li {
+  list-style-type: none;
+  margin-bottom: 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: black;
+  transition: .5s;
+}
+
+/*cerrar botonera*/
+/*main*/
+main {
+  text-align: center;
+  color: white;
+}
+
+main p {
+  color: blue;
+}
+
+main img {
+  max-width: 100%;
+  margin-top: 1rem;
+}
+
+/**/
+section h2 {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+
+section {
+  text-align: center;
+}
+
+section h3 {
+  color: blue;
+}
+
+section h4 {
+  color: blue;
+}
+
+footer {
+  background-color: blue;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 35px;
+}

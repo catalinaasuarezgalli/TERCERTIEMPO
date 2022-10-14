@@ -1,0 +1,132 @@
+/*TITULO H1*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color:rgb(10, 50, 100);
+    width: 100%;
+}
+
+header{
+    height: auto;
+    width: 100%;
+    background-color: blue;
+}
+
+.logo { 
+    text-align: center;
+}
+
+/*botonera*/
+nav{
+    display: inline-block;
+  }
+  
+  nav ul li{
+      list-style-type: none;
+      margin-bottom: 1rem;
+  }
+  
+  nav ul li a{
+      text-decoration: none;
+      color: white;
+  }
+  
+  nav ul li a:hover{
+      color: black;
+      transition: .5s;
+  }
+  /*cerrar botonera*/
+  main {
+    width: 100%;
+  }
+
+  main h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  main p {
+    text-align: center;
+    color: blue;
+  }
+
+  main .clases {
+    text-align: center;
+  }
+
+  section {
+    max-width: 100%;
+  }
+
+  section .categorias {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  section .categorias h2 {
+    color: white;
+  }
+
+  section .cat02y03 h3 {
+    color: blue;
+  }
+
+  section .cat04y05 h4 {
+    color: blue;
+  }
+
+  section .cat06y07 h5 {
+    color: blue;
+  }
+
+  section .cat08y09 h6 {
+    color: blue;
+  }
+
+  section .cat10y11 h7 {
+    color: blue;
+  }
+
+  .destacados {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .destacados p {
+    color: white;
+    font-size: 18px;
+  }
+
+  .destacados h1 {
+    color: blue;
+    font-size: 25px;
+  }
+
+  .destacados h2 {
+    color: blue;
+    font-size: 25px;
+  }
+
+  .destacados h3 {
+    color: blue;
+    font-size: 25px;
+  }
+  
+  footer {
+    background-color: blue;
+}
+
+footer p {
+    color:white;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+}

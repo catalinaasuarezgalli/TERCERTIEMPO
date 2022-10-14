@@ -1,0 +1,545 @@
+@media screen and (min-width:320px) and (max-width:640px) {
+    body {
+        width:80%
+    }
+    header {
+        height: auto;
+        width: 80%;
+        background-color: blue;
+    }
+    
+    .logo {
+        text-align: center;
+    }
+    
+     /*botonera*/
+     nav {
+        display: inline-block;
+    
+    }
+    
+    nav ul li {
+        list-style-type: none;
+        margin-bottom: 1rem;
+        font-family: 'Staatliches', cursive;
+        font-size: 30px;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-family: 'Staatliches', cursive;
+        font-size: 30px;
+    }
+       
+    nav ul li a:hover {
+        color: black;
+        transition: .5s;
+        font-family: 'Staatliches', cursive;
+        font-size: 30px;
+    } 
+    /*cerrar botonera*/
+    /*formulario*/ 
+    main {
+        max-width: 80%;
+        text-align: center;
+    }
+    
+    main h1 {
+        color: white;
+        font-size: 30px;
+        font-family: 'Staatliches', cursive;
+    }
+    .nombre {
+      text-align: center;
+    }
+    .nombre label {
+        color: blue;
+        font-size: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .edad {
+      text-align: center;
+    }
+    
+    .edad label {
+        color: blue;
+        font-size: 5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .cumple {
+      text-align: center;
+    }
+
+    .cumple label {
+        color: blue;
+        font-size: 5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .particular {
+      text-align: center;
+    }
+
+    .particular label {
+        color: blue;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .madre h2 {
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Staatliches', cursive;
+    }
+    
+    .nombremadre {
+      text-align: center;
+    }
+    .madre label {
+        color: blue;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .telmadre {
+      text-align: center;
+    }
+
+    .mailmadre {
+      text-align: center;
+    }
+    
+    .padre h3 {
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Staatliches', cursive;
+    }
+
+    .nombrepadre {
+      text-align: center;
+    }
+
+    .telpadre {
+      text-align: center;
+    }
+
+    .emailpadre {
+      text-align: center;
+    }
+
+    .padre label {
+        color: blue;
+        font-size: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-top: 15px;
+    }
+    .retirada {
+      text-align: center;
+    }
+    .retirada label {
+        color: blue;
+        font-size: 10px;
+        padding-bottom: 80px;
+    }
+    
+    .emergencia {
+        text-align: center;
+    }
+    
+    .emergencia h4 {
+        font-size: 15px;
+        color: white;
+        font-family: 'Staatliches', cursive;
+    }
+    .cobertura {
+      text-align: center;
+    }
+
+    .cobertura label {
+        color: white;
+        font-size: 15px;
+        font-family: 'Bungee Spice', cursive;
+    }
+    
+    .afiliado label {
+        color: white;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .medico label {
+        color: white;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .observaciones label {
+        color: white;
+        font-size: 25px;
+        font-family: 'Staatliches', cursive;
+    }
+    
+    .boton {
+        text-align: center;
+        padding-left: 22rem;
+    
+    }
+    
+    .boton input {
+        font-size: 20px;
+        background-color: blue;
+        color: white;
+    
+    }
+    
+    .autorizacion p {
+        font-size: 14px;
+        color: white;
+    
+    }
+    
+    .alumno label {
+        color: white;
+        font-size: 8px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+    }
+    
+    section {
+        max-width: 80%;
+    }
+    
+    section p {
+        font-size: 14px;
+        text-align: center;
+        color: white;
+    }
+    
+    footer {
+        background-color: blue;
+    }
+    
+    footer p {
+        color: white;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+       
+    }
+    /*fin formulario*/
+    /*contacto*/
+    body {
+      width:80%
+  }
+  header {
+      height: auto;
+      width: 80%;
+      background-color: blue;
+  }
+  
+  .logo {
+      text-align: center;
+  }
+  
+     nav {
+        display: inline-block;
+        font-family: 'Staatliches', cursive;
+        text-align: center;
+    }
+    
+    nav ul li {
+        list-style-type: none;
+        margin-bottom: 1rem;
+        font-family: 'Staatliches', cursive;
+        font-size: 20px;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-family: 'Staatliches', cursive;
+        font-size: 20px;
+    }
+       
+    nav ul li a:hover {
+        color: black;
+        transition: .5s;
+        font-family: 'Staatliches', cursive;
+        font-size: 20px;
+    } 
+
+    main {
+        text-align: center;
+        color: white;
+        font-size: 50px;
+        width: 80%;
+      }
+    
+    .instalaciones img {
+      width: 80%;
+        text-align: center;
+    }
+    
+      section {
+        text-align: center;
+        width: 80%;
+      }
+    
+      section p {
+        color: blue;
+        font-size: 25px;
+        font-family: 'Staatliches', cursive;
+      }
+    
+      .mapa {
+        text-align: center;
+        padding-bottom: 5rem;
+        width: 80%;
+      }
+ 
+      h2 {
+        color: white;
+        font-family: 'Staatliches', ;
+        font-size: 2px;
+     
+      }
+    
+    
+      footer {
+        background-color: blue;
+        font-family: 'Staatliches', cursive;
+    }
+    
+    footer p {
+        color:white;
+        text-align: center;
+        font-family: 'Staatliches', cursive;
+        font-size: 15px;
+    }
+    /*clases*/
+    nav{
+        display: inline-block;
+        font-family: 'Staatliches', cursive;
+        text-align: center;
+      }
+      
+      nav ul li{
+          list-style-type: none;
+          margin-bottom: 1rem;
+      }
+      
+      nav ul li a{
+          text-decoration: none;
+          color: white;
+      }
+      
+      nav ul li a:hover{
+          color: black;
+          transition: .5s;
+      }
+     
+      main {
+        width: 100%;
+      }
+    
+      main h1 {
+        color: white;
+        text-align: center;
+        font-size: 22px;
+      }
+    
+      main p {
+        text-align: center;
+        color: blue;
+        font-family: 'Staatliches', cursive;
+        font-size: 15px;
+      }
+    
+      main .clases {
+        text-align: center;
+      }
+    
+      section {
+        width: 80%;
+      }
+    
+      section .categorias {
+        text-align: center;
+        width: 80%;
+      }
+    
+      section .categorias h2 {
+        color: white;
+        font-family: 'Staatliches', cursive;
+        font-size: 22px;
+      }
+
+      .categorias {
+        text-align: center;
+      }
+
+      section .categorias  img {
+        width: 80%;
+      }
+    
+      section .cat02y03 h3 {
+        color: blue;
+        font-size: 12px;
+        text-align: center;
+        font-family: 'Staatliches', cursive;
+      }
+   
+      section .cat04y05 h4 {
+        color: blue;
+        text-align: center;
+        font-size: 12px;
+        font-family: 'Staatliches', cursive;
+      }
+
+      section .cat06y07 h5 {
+        color: blue;
+        font-size: 12px;
+        font-family: 'Staatliches', cursive;
+      }
+    
+      section .cat08y09 h6 {
+        color: blue;
+        font-size: 12px;
+        font-family: 'Staatliches', cursive;
+      }
+    
+      .destacados {
+        max-width: 100%;
+        text-align: center;
+      }
+    
+      .destacados p {
+        color: white;
+        font-size: 14px;
+        font-family: 'Staatliches', cursive;
+      }
+    
+      .destacados h1 {
+        color: blue;
+        font-size: 30px;
+        font-family: 'Staatliches', cursive;
+      }
+
+      .destacados h2 {
+        color: blue;
+        font-size: 25px;
+        font-family: 'Staatliches', cursive;
+      }
+
+      .destacados img {
+        width: 80%;
+      }
+ 
+      footer {
+        background-color: blue;
+    }
+    
+    footer p {
+        color:white;
+        text-align: center;
+        font-family: 'Staatliches', cursive;
+        font-size: 25px;
+        width: 80%;
+    }
+    /*fin clases*/
+    /*inicio*/
+    body {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        background-color: rgb(10, 50, 100);
+        width: 80%;
+      }
+      
+      header {
+        height: auto;
+        width: 80%;
+        background-color: blue;
+      }
+      
+      .logo {
+        text-align: center;
+      }
+      
+     
+      nav {
+        display: inline-block;
+        font-family: 'Staatliches', cursive;
+        text-align: center;
+      }
+      
+      nav ul li {
+        list-style-type: none;
+        margin-bottom: 1rem;
+      }
+      
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      
+      nav ul li a:hover {
+        color: black;
+        transition: .5s;
+      }
+      
+      main h1 {
+        text-align: center;
+        color: blue;
+        font-family: 'Staatliches', cursive;
+      }
+      
+      main p {
+        color: white;
+        font-size: 15px;
+      }
+      
+      main img {
+        width: 80%;
+       
+      }
+      
+      section {
+        text-align: center;
+        width: 80%;
+      }
+
+      section h2 {
+        text-align: center;
+        color: blue;
+        font-size: 18px;
+      }
+
+      section picture img {
+        width: 80%;
+      }
+      
+    
+      section h3 {
+        color: white;
+      }
+      
+      section h4 {
+        color: white;
+      }
+      
+      footer {
+        background-color: blue;
+        width: 80%;
+      }
+      
+      footer p {
+        color: white;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 10px;
+      }
+      /*fin inicio*/
+
+}

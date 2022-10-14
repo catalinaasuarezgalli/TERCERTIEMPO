@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario de inscripcion</title>
+    <link rel="stylesheet" href="estilo_formulario.css">
+    <link rel="stylesheet" href="estilo_general.css">
+    <link rel="stylesheet" href="estilo.celu.css">
+    <link rel="stylesheet" href="estilo_tablet.css">
+    <link rel="stylesheet" href="estilo_compu.css">
+    <link rel="stylesheet" href="estilo_monitores.css">
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <!--Logo-->
+        <div class="contenedor-header">
+            <a href="#" class="logo">
+                <h1>
+                    <img src="img/logo.png" height="150" width="150" alt="logo">
+                </h1>
+            </a>
+
+            <!--Icono-->
+            <a href="#navbar" class="icono"><i class="fa-solid fa-bars"></i></a>
+
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">INICIO</a> </li>
+                <li><a href="clases.html">CLASES</a> </li>
+                <li><a href="formulario.html">FORMULARIO</a> </li>
+                <li><a href="contacto.html">CONTACTO</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>FORMULARIO DE INSCRIPCION</h1>
+    </main>
+    <form action="index.html">
+        <div class="nombre">
+            <label for="name">Nombre</label>
+            <input id="name" type="nombre" placeholder="NOMBRE DEL ALUMNO" />
+        </div>
+
+        <div class="edad">
+            <label for="edad">Edad:</label>
+            <input id="edad" type="edad" name="edad" placeholder="EDAD" />
+        </div>
+
+        <div class="cumple">
+            <label for="date">Fecha de nacimiento:</label>
+            <input id="date" type="date" name="fecha" placeholder="FECHA DE NACIMIENTO" />
+        </div>
+
+        <div class="particular">
+            <label for="telefono">Telefono particular:</label>
+            <input id="telefono" type="telefono particular" name="telefono" placeholder="TELEFONO PARTICULAR" />
+        </div>
+
+        <div class="madre">
+            <h2>DATOS DE LA MADRE</h2>
+            <div class="nombremadre">
+                <label for="madre">Nombre y apellido de la madre</label>
+                <input id="madre" type="nombre y apellido de la madre" name="madre" placeholder="NOMBRE DE LA MADRE">
+            </div>
+
+            <div class="telmadre">
+                <label for="celumadre">Tel celular:</label>
+                <input id="celumadre" type="tel celular" name="celumadre" placeholder="TELEFONO MADRE" />
+            </div>
+
+            <div class="mailmadre">
+                <label for="emailmadre">direeccion de correo electronico:</label>
+                <input id="emailmadre" type="direccion de correo electronico" name="mailmadre"
+                    placeholder="MAIL MADRE" />
+            </div>
+
+            <div class="padre">
+                <h3>DATOS DEL PADRE</h3>
+                <div class="nombrepadre">
+                    <label for="padre">Nombre y apellido del padre</label>
+                    <input id="padre" type="nombre y apellido del padre" name="padre" placeholder="NOMBRE DEL PADRE">
+                </div>
+
+                <div class="telpadre">
+                    <label for="celupadre">Tel celular:</label>
+                    <input id="celupadre" type="tel celular" name="celupadre" placeholder="TELEFONO PADRE" />
+                </div>
+
+                <div class="emailpadre">
+                <label for="emailpadre">direeccion de correo electronico:</label>
+                <input id="emailpadre" type="direccion de correo electronico" name="mailpadre"
+                    placeholder="MAIL PADRE" />
+                </div>
+            </div>
+
+            <div class="retirada">
+                <h4>SE RETIRA CON:</h4>
+                <label for="responsable">se retira con:</label>
+                <input id="responsable" type="se retira con" name="responsable" placeholder=" RESPONSABLE" />
+                <label for="dni">DNI: </label>
+                <input id="dni" type="dni" name="dni" placeholder="DOCUMENTO" />
+                <label for="celuresponsable">Tel celular:</label>
+                <input id="celuresponsable" type="tel celular" name="celuresponsable" placeholder="TELEFONO" />
+            </div>
+
+            <div class="emergencia">
+                <h4>cobertura medica</h4>
+                <div class="cobertura">
+                    <label for="cobertura">cobertura medica:</label>
+                    <input id="cobertura" type="cobertura medica" name="cobertura" placeholder="COBERTURA MEDICA">
+
+                    <div class="afiliado">
+                        <label for="afiliado">numero de afiliado</label>
+                        <input id="afiliado" type="tel celular" name="afiliado" placeholder="NUMERO DE AFILIADO" />
+                    </div>
+
+                    <div class="medico">
+                        <label for="tel">Tel clinica:</label>
+                        <input id="tel" type="tel clinica" name="tel" placeholder="NUMERO DE LA CLINICA" />
+                    </div>
+                </div>
+
+                <div class="observaciones">
+                    <label for="area">observaciones Medicas:</label></br>
+                    <textarea id="area" rows="8" col="40">
+                </textarea>
+                </div>
+
+                <div class="autorizacion">
+                    <p>Autorizo a mi hijo/a a ser asistido/a por el servicio de emergencia correspondiente al predio
+                        donde
+                        se desarrolla la actividad y ser derivado en caso de necesidad y/o urgencia al hospital
+                        correspondiente a dicho servicio</p>
+
+                    <div class="alumno">
+                        <label for="alumno"></label>
+                        <input id="alumno" type="nombre del alumno" name="alumno" placeholder="NOMBRE DEL ALUMNO" />
+                        <label for="documento"></label>
+                        <input id="documento" type="dni" name="documento" placeholder="DOCUMENTO" />
+                    </div>
+
+                    <div class="boton">
+                        <input type="submit" />
+                    </div>
+
+                </div>
+    </form>
+    <section>
+        <p>CUALQUIER DUDA E INQUIETUD NO DUDE EN CONSULTAR, MEDIANTE MAIL, POR NUESTRA PAGINA DE INSTAGRAM, A TRAVES DE
+            WHATSAAP O LLAMADO TELEFONICO!</p>
+    </section>
+    <footer>
+        <p>TODOS LOS DERECHOS RESERVADOS</p>
+        <p>MAQUETADO Y DESARROLLO WEB</p>
+        <p>SEGUNDO CUATRIMESTRE</p>
+    </footer>
+</body>
+
+</html>

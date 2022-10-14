@@ -1,0 +1,211 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Pacifico&family=Shadows+Into+Light&family=Sriracha&family=Staatliches&display=swap');
+
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: rgb(10, 50, 100);
+    width: 100%;
+}
+
+header {
+    height: auto;
+    width: 100%;
+    background-color: blue;
+}
+
+.logo {
+    text-align: center;
+}
+
+/*botonera*/
+nav {
+    display: inline-block;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-bottom: 1rem;
+    font-family: 'Staatliches', cursive;
+    font-size: 30px;
+}
+
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Staatliches', cursive;
+    font-size: 30px;
+}
+
+
+nav ul li a:hover {
+    color: black;
+    transition: .5s;
+    font-family: 'Staatliches', cursive;
+    font-size: 30px;
+}
+
+
+
+/*cerrar botonera*/
+main {
+    max-width: 100%;
+    text-align: center;
+}
+
+main h1 {
+    color: white;
+    font-size: 100px;
+    font-family: 'Staatliches', cursive;
+}
+
+.nombre label {
+    color: blue;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.edad label {
+    color: blue;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.cumple label {
+    color: blue;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.particular label {
+    color: blue;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.madre h2 {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Staatliches', cursive;
+}
+
+
+.madre label {
+    color: blue;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.padre h3 {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Staatliches', cursive;
+}
+
+.padre label {
+    color: blue;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 15px;
+}
+
+.retirada label {
+    color: blue;
+    font-size: 20px;
+
+    padding-bottom: 80px;
+}
+
+.emergencia {
+    text-align: center;
+}
+
+.emergencia h4 {
+    font-size: 100px;
+    color: white;
+    font-family: 'Staatliches', cursive;
+}
+
+.cobertura label {
+    color: white;
+    font-size: 20px;
+    font-family: 'Bungee Spice', cursive;
+}
+
+.afiliado label {
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.medico label {
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.observaciones label {
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.boton {
+    text-align: center;
+    padding-left: 22rem;
+
+}
+
+.boton input {
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+
+}
+
+.autorizacion p {
+    font-size: 20px;
+    color: white;
+
+}
+
+.alumno label {
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 500px;
+}
+
+section {
+    max-width: 100%;
+}
+
+section p {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+footer {
+    background-color: blue;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+}

@@ -1,0 +1,201 @@
+@media screen and (min-width:640px) and (max-width:1024px) {
+
+    /*formulario*/
+    body {
+     width:66,6%;
+    }
+   
+    header {
+        height: auto;
+        width: 66,6%;
+        background-color: blue;
+    }
+    
+    .logo {
+        text-align: center;
+    }
+    
+     nav {
+        display: inline-block;
+        width: 66,6%;
+    }
+    
+    nav ul li {
+        list-style-type: none;
+        margin-bottom: 1rem;
+        font-family: 'Staatliches', cursive;
+        font-size: 20px;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-family: 'Staatliches', cursive;
+        font-size: 20px;
+    }
+       
+    nav ul li a:hover {
+        color: black;
+        transition: .5s;
+        font-family: 'Staatliches', cursive;
+        font-size: 20px;
+    } 
+  
+    main {
+        max-width: 66,6%;
+        text-align: center;
+    }
+    
+    main h1 {
+        color: white;
+        font-size: 30px;
+        font-family: 'Staatliches', cursive;
+    }
+
+    .nombre {
+        text-align: center;
+    }
+
+    .nombre label {
+        color: blue;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .edad {
+        text-align: center;
+    }
+    .edad label {
+        color: blue;
+        font-size: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .cumple label {
+        color: blue;
+        font-size: 80px;
+        font-family: 'Staatliches', cursive;
+    }
+    
+    .particular label {
+        color: blue;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .madre h2 {
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Staatliches', cursive;
+    }
+    
+    
+    .madre label {
+        color: blue;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .padre h3 {
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Staatliches', cursive;
+    }
+    
+    .padre label {
+        color: blue;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-top: 15px;
+    }
+    
+    .retirada label {
+        color: blue;
+        font-size: 20px;
+    
+        padding-bottom: 80px;
+    }
+    
+    .emergencia {
+        text-align: center;
+    }
+    
+    .emergencia h4 {
+        font-size: 30px;
+        color: white;
+        font-family: 'Staatliches', cursive;
+    }
+    
+    .cobertura label {
+        color: white;
+        font-size: 15px;
+        font-family: 'Bungee Spice', cursive;
+    }
+    
+    .afiliado label {
+        color: white;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .medico label {
+        color: white;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .observaciones label {
+        color: white;
+        font-size: 25px;
+        font-family: 'Staatliches', cursive;
+    }
+    
+    .boton {
+        text-align: center;
+        padding-left: 22rem;
+    
+    }
+    
+    .boton input {
+        font-size: 20px;
+        background-color: blue;
+        color: white;
+    
+    }
+    
+    .autorizacion p {
+        font-size: 14px;
+        color: white;
+    
+    }
+    
+    .alumno label {
+        color: white;
+        font-size: 8px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+    }
+    
+    section {
+        max-width: 80%;
+    }
+    
+    section p {
+        font-size: 14px;
+        text-align: center;
+        color: white;
+    }
+    
+    footer {
+        background-color: blue;
+    }
+    
+    footer p {
+        color: white;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+       
+    }
+      /*fin formulario*/
+    }
